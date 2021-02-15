@@ -65,13 +65,7 @@ function headerRaw(){
   trEl.appendChild(th1El);
   th1El.textContent='daily location total ';
 }
-function footerRaw(){
-    let trEl=document.createElement('tr');
-    table.appendchild(trEl);
-    let tdEl=document.createElement('td');
-    trEl.appendchild(tdEl);
-    tdEl.textContent ='Total'+this.total;
-}
+
 
 
 
@@ -107,6 +101,24 @@ lima.randomCustomerPerHour();
 lima.cookiesSoldPerHour();
 lima.render();
 console.log(lima);
+
+function footerRaw(){
+    let trEl=document.createElement('tr');
+    table.appendChild(trEl);
+    let thEl=document.createElement('th');
+    trEl.appendChild(thEl);
+    thEl.textContent ='Total';
+    for(let i=0; i<seattle.numOfCookiesSoldPerHour.length;i++){
+        let thEl=document.createElement('th');
+        trEl.appendChild(thEl);
+        thEl.textContent = seattle.numOfCookiesSoldPerHour[i] + tokyo.numOfCookiesSoldPerHour[i] + dubai.numOfCookiesSoldPerHour[i] + paris.numOfCookiesSoldPerHour[i] + lima.numOfCookiesSoldPerHour[i]
+    }
+    let th2El=document.createElement('th');
+    trEl.appendChild(th2El);
+    th2El.textContent = seattle.total + tokyo.total + dubai.total + paris.total + lima.total
+} 
+footerRaw();
+
 
 
 
