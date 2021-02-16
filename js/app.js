@@ -1,5 +1,5 @@
-'use strict';
 
+'use strict';
 function randomValue(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min); 
 }
@@ -124,6 +124,31 @@ footerRaw();
 
 
 
+    render:function(){
+        let headerEl = document.createElement('h2');
+        container.appendChild(headerEl);
+        headerEl.textContent = this.location;
+        let ulEl = document.createElement('ul');
+        container.appendChild(ulEl);
+        let liEl;
+        for(let i =0 ; i<this.numOfCookiesSoldPerHour.length; i++){
+            liEl = document.createElement('li');
+            ulEl.appendChild(liEl);
+            liEl.textContent = `${hours[i]} : ${this.numOfCookiesSoldPerHour[i]} Cookies`;
+        }
+        liEl = document.createElement('li');
+        ulEl.appendChild(liEl);
+        liEl.textContent =  'Total : ' + this.total + ' Cookies';
+
+    }
+}
+lima .randomCustomerPerHour();
+lima .cookiesSoldPerHour();
+lima .render();
+
+function randomGenrator(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min); 
+  }
         
 
 
