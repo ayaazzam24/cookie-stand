@@ -47,7 +47,23 @@ Location.prototype.render =function(){
     trEl.appendChild(td2El);
     td2El.textContent=this.total;
 };
-
+Location.prototype.render =function(){
+    let trEl=document.createElement('tr');
+    table.appendChild(trEl);
+    let td1El =document.createElement('td');
+    trEl.appendChild(td1El);
+    td1El.textContent=this.location
+    for(let i=0;i<hours.length;i++)
+    {
+        let tdEl = document.createElement('td');
+        console.log (this.numOfCookiesSoldPerHour[i])
+        tdEl.textContent= this.numOfCookiesSoldPerHour[i]
+        trEl.appendChild(tdEl);
+    }
+    let td2El = document.createElement('td');
+    trEl.appendChild(td2El);
+    td2El.textContent=this.total;
+};
 function headerRaw(){
     let trEl=document.createElement('tr');
     let th2El =document.createElement('th');
@@ -124,27 +140,27 @@ footerRaw();
 
 
 
-    render:function(){
-        let headerEl = document.createElement('h2');
-        container.appendChild(headerEl);
-        headerEl.textContent = this.location;
-        let ulEl = document.createElement('ul');
-        container.appendChild(ulEl);
-        let liEl;
-        for(let i =0 ; i<this.numOfCookiesSoldPerHour.length; i++){
-            liEl = document.createElement('li');
-            ulEl.appendChild(liEl);
-            liEl.textContent = `${hours[i]} : ${this.numOfCookiesSoldPerHour[i]} Cookies`;
-        }
-        liEl = document.createElement('li');
-        ulEl.appendChild(liEl);
-        liEl.textContent =  'Total : ' + this.total + ' Cookies';
+    // render:function(){
+    //     let headerEl = document.createElement('h2');
+    //     container.appendChild(headerEl);
+    //     headerEl.textContent = this.location;
+    //     let ulEl = document.createElement('ul');
+    //     container.appendChild(ulEl);
+    //     let liEl;
+    //     for(let i =0 ; i<this.numOfCookiesSoldPerHour.length; i++){
+    //         liEl = document.createElement('li');
+    //         ulEl.appendChild(liEl);
+    //         liEl.textContent = `${hours[i]} : ${this.numOfCookiesSoldPerHour[i]} Cookies`;
+    //     }
+    //     liEl = document.createElement('li');
+    //     ulEl.appendChild(liEl);
+    //     liEl.textContent =  'Total : ' + this.total + ' Cookies';
 
-    }
-}
-lima .randomCustomerPerHour();
-lima .cookiesSoldPerHour();
-lima .render();
+    // }
+
+// lima .randomCustomerPerHour();
+// lima .cookiesSoldPerHour();
+// lima .render();
 
 function randomGenrator(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min); 
