@@ -1,11 +1,80 @@
 table {
+   
+        width: 100%;
+        margin-top: 50px;
+        border: 1px solid #ddd;
+        font-family: 'Roboto','Arial',monospace;
+        font-size: 12px;
+        font-weight: normal;
+    text-align: center;
     border: 1px;
     border: solid;
-    border-color:  tomato;
+    border-color: rosybrown;
     
 }
+form {
+    margin: 25px auto;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        to right bottom,
+        rosybrown,
+        rgba(40, 147, 180, 0.8));
+}
+form fieldset {
+    margin: 25px;
+}
+
 table th,td {
     border: 1px;
     border: solid;
     border-color:  rgb(2, 2, 2);
+}
+.header1{
+    height: 100px;
+    background-color: rgb(252, 181, 122);
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+
+
+ 
+ 
+.img1{
+   width: 400px;
+   height: 200px;
+
+}
+.img7{
+    width: 400px;
+    height:200px ;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+*{
+    margin: 0%;
+}
+#p1{
+    position: absolute;
+    box-sizing: content-box;
+    top: 40%;
+    left: 60%;
+   
+    transform: translate(-50%,-50%);
+    font-size: xx-large;
+
+}
+footer{
+    font-size: xx-large;
+    clear: left;
+    height: 100px;
+    
+   
+    background: rgb(252, 181, 122)
+ 
 }

@@ -6,13 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+   
 </head>
+
 <body>
+
+    <header>
+        <ul>
+            <li ><a href="index.html"> Home page</a></li> 
+            </ul>
+    </header>
+    
+    <form id= "locationform">
+        <fieldset>
+            <legend> locations </legend>
+            <label for="locationfelid">location :</label>
+            <input type="text" id="locationfelid">
+            <br>
+            <label for="minCustomer">minCustomer :</label>
+            <input type="number" id="minCustomer">
+            <br>
+            <label for="maxcoustomer">maxcoustomer :</label>
+            <input type="number" id ="maxcoustomer"> 
+            <br>
+            <label for="avgperSale">avgperSale :</label>
+            <input type="number" id= "avgperSale" step="0.1">
+            <br>
+        <input type="submit" value="Submit">
+        </fieldset>
+
+    </form>
+
     <div >
         <table id='container'>
 
         </table>
     </div>
+   
     
     <script src="js/app.js"></script>
 </body>
