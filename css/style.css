@@ -1,35 +1,117 @@
 table {
    
-        width: 100%;
-        margin-top: 50px;
-        border: 1px solid #ddd;
-        font-family: 'Roboto','Arial',monospace;
-        font-size: 12px;
-        font-weight: normal;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    font-family: 'Roboto','Arial',monospace;
+    font-size: xx-large;
     text-align: center;
-    border: 1px;
+    border: 10px;
     border: solid;
-    border-color: rosybrown;
+    border-color: rgb(48, 45, 48);
+    color: rgb(77, 69, 75);
     
 }
 form {
-    margin: 25px auto;
-    border: 1px solid #ddd;
-    border-radius: 25px;
-    background-image: linear-gradient(
-        to right bottom,
-        rosybrown,
-        rgba(40, 147, 180, 0.8));
+    margin: 1% auto;
+    border: 10px solid #ddd;
+    border-radius: 1px;
+   
+    font-size: larger;
+
+        
+
 }
 form fieldset {
-    margin: 25px;
+   
+    font    : 1.7em/1.5em "handwriting", cursive, sans-serif;
+    border  : none;
+    padding : 0 20px;
+    margin  : 0;
+    width   : 100%;
+    background   : rgba(0,0,0,.1);
+
+  border-radius: 5px;
+ padding-top: 3%;
+ text-align: center;
+
+ 
 }
+input {
+    padding      : 5px;
+    font         : bold .6em sans-serif;
+    border       : 2px solid #333;
+    border-radius: 5px;
+    background   : none;
+    cursor       : pointer;
+    transform    : rotate(-1.5deg);
+  }
 
 table th,td {
     border: 1px;
     border: solid;
-    border-color:  rgb(2, 2, 2);
+    border-color:  rgb(67, 0, 70);
 }
+#home{
+    background-color:rgba(rgb(67, 0, 70));
+    float:right;
+    padding-right: 30%;
+   
+}
+.list1{
+    position: relative;
+    right: 70%;
+    top:50px;
+    padding: 5px;
+}
+.list2{
+    position: relative;
+    top: 50px;
+    padding: 5px;
+    
+}
+.list3{
+    position: relative;
+    left: 60%;
+    top:50px;
+    padding: 5px;
+}
+
+
+
+#image2{
+    width: 100px;
+    height: 100px;
+    padding-top: 10%;
+}
+#image3{
+    width: 450px;
+    height: 450px;
+}
+#image4{
+    width: 450px;
+    height: 450px;
+   
+}
+#image5{
+    width:450px;
+    height: 450px;
+}
+.headersales{
+    background-image: url("https://img.freepik.com/free-vector/abstract-shiny-lines-white-gray-background_1017-25097.jpg?size=626&ext=jpg");
+}
+.body2{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-all-neutral-gray-light-color-striped-old-paper-background-backgroundstripestriped-shadingneutral-image_75140.jpg");
+}
+#footer2{
+    font-weight: bold;
+    color: rgb(105, 101, 101);
+    text-align: center;
+    padding-top: 200px;
+    font-size: xx-large
+
+}
+
 *{
     box-sizing: border-box;
 }
@@ -89,7 +171,7 @@ footer {
     color: rgb(105, 101, 101);
     font-family: 'Dosis', sans-serif;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
     font-size: xx-large;
     
 }
