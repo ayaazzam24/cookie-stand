@@ -43,9 +43,8 @@ input {
     font         : bold .6em sans-serif;
     border       : 2px solid #333;
     border-radius: 5px;
-    background   : none;
-    cursor       : pointer;
-    transform    : rotate(-1.5deg);
+    
+    
   }
 
 table th,td {
@@ -86,16 +85,16 @@ table th,td {
     padding-top: 10%;
 }
 #image3{
-    width: 350px;
+    width: 300px;
     height: 450px;
 }
 #image4{
-    width: 450px;
+    width: 350px;
     height: 450px;
    
 }
 #image5{
-    width:450px;
+    width:350px;
     height: 450px;
 }
 .headersales{
