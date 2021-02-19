@@ -18,7 +18,7 @@ form {
     border: 10px solid #ddd;
     border-radius: 1px;
    
-    font-size: larger;
+    font-size: medium;
 
         
 
@@ -66,11 +66,13 @@ table th,td {
     right: 70%;
     top:50px;
     padding: 5px;
+    font-size: large;
 }
 .list2{
     position: relative;
     top: 50px;
     padding: 5px;
+    font-size: large;
     
 }
 .list3{
@@ -78,6 +80,7 @@ table th,td {
     left: 60%;
     top:50px;
     padding: 5px;
+    font-size: large;
 }
 
 
@@ -85,20 +88,20 @@ table th,td {
 #image2{
     width: 100px;
     height: 100px;
-    padding-top: 10%;
+   
 }
 #image3{
     width: 300px;
-    height: 450px;
+    height: 400px;
 }
 #image4{
-    width: 350px;
-    height: 450px;
+    width: 300px;
+    height: 400px;
    
 }
 #image5{
-    width:350px;
-    height: 450px;
+    width:300px;
+    height: 400px;
 }
 .headersales{
     background-image: url("https://img.freepik.com/free-vector/abstract-shiny-lines-white-gray-background_1017-25097.jpg?size=626&ext=jpg");
