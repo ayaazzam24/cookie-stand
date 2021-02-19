@@ -1,3 +1,4 @@
+
 table {
    
     width: 100%;
@@ -114,6 +115,7 @@ table th,td {
 
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 .back{
     
