@@ -16,25 +16,7 @@ table {
   
     
 }
-thead th:nth-child(1) {
-    width: 30%;
-  }
-  
-  thead th:nth-child(2) {
-    width: 20%;
-  }
-  
-  thead th:nth-child(3) {
-    width: 15%;
-  }
-  
-  thead th:nth-child(4) {
-    width: 35%;
-  }
-  
-  th, td {
-    padding: 10px;
-  }
+
 form {
     margin: 1% auto;
     border: 10px solid #ddd;
@@ -99,7 +81,7 @@ table th,td {
     font-size: large;
     background-color: rgb(255, 255, 255);
     font-family: cursive;
-    font-size:xx-large
+    font-size:large;
     
 }
 .list2{
@@ -109,7 +91,7 @@ table th,td {
     font-size: large;
     background-color: rgb(255, 255, 255);
     font-family: cursive;
-    font-size: xx-large;
+    font-size: large;
     
 }
 .list3{
@@ -120,7 +102,7 @@ table th,td {
     font-size: large;
     background-color: rgb(255, 255, 255);
     font-family: cursive;
-    font-size: xx-large;
+    font-size: large;
    
 }
 
