@@ -4,15 +4,37 @@ table {
     width: 100%;
     margin-top: 10px;
     border: 1px solid #ddd;
-    font-family: 'Roboto','Arial',monospace;
+    font-family: cursive;
     font-size: medium;
     text-align: center;
-    border: 10px;
+   
     border: solid;
     border-color: rgb(48, 45, 48);
     color: rgb(77, 69, 75);
+    table-layout: fixed;
+  
+  
     
 }
+thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
 form {
     margin: 1% auto;
     border: 10px solid #ddd;
@@ -25,16 +47,15 @@ form {
 }
 form fieldset {
    
-    font    : 1.7em/1.5em "handwriting", cursive, sans-serif;
+    font    : 1.7em/1.5em "handwriting", cursive;
     border  : none;
     padding : 0 20px;
     margin  : 0;
     width   : 100%;
     background   : rgba(0,0,0,.1);
-
-  border-radius: 5px;
- padding-top: 3%;
- text-align: center;
+    border-radius: 5px;
+    padding-top: 3%;
+    text-align: center;
 
  
 }
@@ -43,15 +64,24 @@ input {
     font         : bold .6em sans-serif;
     border       : 2px solid #333;
     border-radius: 5px;
+    background-color: rgba(235, 235, 235, 0.466);
+    font-family: cursive;
+    
     
     
   }
 
+
 table th,td {
     border: 1px;
     border: solid;
-    border-color:  rgb(67, 0, 70);
+    border-color:  rgba(0, 0, 0, 0.507);
+    background: linear-gradient(to bottom, rgba(44, 16, 16, 0.1), rgba(255, 243, 254, 0.5));
+    border: 3px solid rgb(255, 255, 255);
+    
 }
+
+  
 #home{
     background-color:rgba(rgb(67, 0, 70));
     float:right;
@@ -63,24 +93,35 @@ table th,td {
 }
 .list1{
     position: relative;
-    right: 70%;
+    right: 80%;
     top:50px;
     padding: 5px;
     font-size: large;
+    background-color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-size:xx-large
+    
 }
 .list2{
     position: relative;
     top: 50px;
     padding: 5px;
     font-size: large;
+    background-color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-size: xx-large;
     
 }
 .list3{
     position: relative;
-    left: 60%;
+    left: 80%;
     top:50px;
     padding: 5px;
     font-size: large;
+    background-color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-size: xx-large;
+   
 }
 
 
@@ -114,7 +155,8 @@ table th,td {
     color: rgb(105, 101, 101);
     text-align: center;
     padding-top: 200px;
-    font-size: xx-large
+    font-size: xx-large ;
+    font-family: 'Dosis', sans-serif;
 
 }
 
@@ -132,9 +174,10 @@ table th,td {
     height:250px;
     width: 250px;
 }
-ul li a{
+ul li a {
     text-decoration:  none;
-    color: whitesmoke;
+   
+    color: #000;
 }
 ul li {
    
@@ -143,6 +186,8 @@ ul li {
     text-align: center;
     font-size: xx-large;
     text-emphasis-color:rgb(161, 157, 157);
+    font-family: cursive;
+    
    
 }
 .bodyht{
